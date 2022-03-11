@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-10T12:43:25 IST" name="FirstMavenTest_V2" finished-at="2022-03-10T12:44:33 IST" duration-ms="68522">
+    <groups>
+    </groups>
+    <test started-at="2022-03-10T12:43:25 IST" name="FirstMaven_Test" finished-at="2022-03-10T12:44:33 IST" duration-ms="68522">
+      <class name="com.test.TestCases.TC1_eCaresLogin">
+        <test-method is-config="true" signature="selectBrowser()[pri:0, instance:com.test.TestCases.TC1_eCaresLogin@67f639d3]" started-at="2022-03-10T12:43:25 IST" name="selectBrowser" finished-at="2022-03-10T12:43:26 IST" duration-ms="1268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method signature="loginTest()[pri:0, instance:com.test.TestCases.TC1_eCaresLogin@67f639d3]" started-at="2022-03-10T12:43:26 IST" name="loginTest" finished-at="2022-03-10T12:43:44 IST" duration-ms="18082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.TestCases.TC1_eCaresLogin@67f639d3]" started-at="2022-03-10T12:43:44 IST" name="tearDown" finished-at="2022-03-10T12:43:45 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.TestCases.TC1_eCaresLogin -->
+      <class name="com.test.TestCases.TC2_TOCHospitalization">
+        <test-method is-config="true" signature="selectBrowser()[pri:0, instance:com.test.TestCases.TC2_TOCHospitalization@201a4587]" started-at="2022-03-10T12:43:45 IST" name="selectBrowser" finished-at="2022-03-10T12:43:45 IST" duration-ms="688" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectBrowser -->
+        <test-method signature="TOCTest()[pri:0, instance:com.test.TestCases.TC2_TOCHospitalization@201a4587]" started-at="2022-03-10T12:43:45 IST" name="TOCTest" finished-at="2022-03-10T12:44:33 IST" duration-ms="48073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TOCTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.TestCases.TC2_TOCHospitalization@201a4587]" started-at="2022-03-10T12:44:33 IST" name="tearDown" finished-at="2022-03-10T12:44:33 IST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.TestCases.TC2_TOCHospitalization -->
+    </test> <!-- FirstMaven_Test -->
+  </suite> <!-- FirstMavenTest_V2 -->
+</testng-results>

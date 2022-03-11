@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FirstMavenTest_V2">
+	<listeners>
+		<listener class-name="com.test.Utilities.Reporting" />
+	</listeners>
+	<test name="FirstMaven_Test">
+
+		<classes>
+			<class name="com.test.TestCases.TC1_eCaresLogin" /> 
+			<class name="com.test.TestCases.TC2_TOCHospitalization"/>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
